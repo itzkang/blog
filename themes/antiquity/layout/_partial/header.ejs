@@ -1,0 +1,19 @@
+<header id="header">
+  
+  <div class="head-box global-width">
+  <div id="head-logo"><img src="<%= theme.logo %>"/></div>
+    <nav class="nav-box nav-<%= theme.nav %>">
+      <% for (var i in theme.menu){ %>
+        <a class="nav-item" href="<%- url_for(theme.menu[i]) %>" title
+        <% if(theme.menu[i] === '/resume'|| theme.menu[i] === '/mood' || theme.menu[i] === 'https://github.com/yiluyanxia' || theme.menu[i] === '/atom.xml'){ %>
+          target='_blank'
+        <% } %>
+        ><%= i %></a>
+      <% } %>
+    </nav>
+	<div class="user-login">
+		<a href="/login">登录</a> / 
+		<a href="/register">注册</a>
+	</div>
+  </div>
+</header>

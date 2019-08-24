@@ -1,0 +1,73 @@
+# Header --头部
+menu:
+  首页: /
+  面试题: /interviews
+  技术分享: /share
+  文章归档: /archives
+  关于我: /me
+  留言板: /guestbook
+  
+
+rss: /atom.xml
+nav: left
+mobile_nav: left
+logo: /images/default-avatar.webp
+
+
+# Content --内容
+excerpt_link: 阅读全文
+fancybox: true
+
+# Sidebar --侧边栏
+sidebar: left
+widgets:
+- userinfo
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+- blogroll
+
+# display widgets at the bottom of index pages (pagination == 2) --在索引页底部显示小部件(分页== 2)
+index_widgets:
+# - category --类别
+# - tagcloud --标签云
+# - archive --存档
+
+# widget behavior --装饰
+archive_type: 'monthly'
+show_count: false
+
+# Background
+# background_image: /images/bg.jpeg
+background_title: 图片来自网络
+
+# favicon
+favicon: /images/default-avatar.webp
+
+#Userinfo --用户信息
+author: 康师傅没泡面
+slogan: 你不能做我的诗，正如我不能做你的梦。
+# avatar: /images/code-title.png
+avatar_title: 图片来自网络
+
+# Article code panel: cloud doorframe mac --文章代码面板:云门框mac
+highlightPanel: cloud
+
+#Gitment
+gitment:
+  owner: 
+  repo: 
+  client_id: 
+  client_secret: 
+
+# Miscellaneous --其他项
+google_analytics:
+gauges_analytics:
+google_site_verification: 
+baidu_site_verification: 
+
+# 友情链接
+blogroll:
+  
